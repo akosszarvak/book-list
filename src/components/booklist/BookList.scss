@@ -1,0 +1,36 @@
+.book-list {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(auto-fill, minmax(240px, 300px));
+}
+
+.card {
+  height: 350px;
+}
+
+.paginationBtns {
+  display: flex;
+  gap: 2rem;
+  margin: 6rem 2rem 3rem 3rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.paginationBtns a {
+  border: 1px solid #91c9da;
+  padding: 0.6rem 0.6rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #91c9da;
+  }
+}
+.prevBtn,
+.nextBtn {
+  border: 1px solid #91c9da;
+  padding: 0.5rem;
+  cursor: pointer;
+  &:hover {
+    background-color: #91c9da;
+  }
+}

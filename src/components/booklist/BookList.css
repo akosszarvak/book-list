@@ -1,0 +1,12 @@
+.book-list {
+  display: -ms-grid;
+  display: grid;
+  gap: 1rem;
+  -ms-grid-columns: (minmax(240px, 300px))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(240px, 300px));
+}
+
+.card {
+  height: 350px;
+}
+/*# sourceMappingURL=BookList.css.map */

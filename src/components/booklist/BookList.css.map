@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;EAET,qBAAqB,EAAE,uCAAuC;CAC/D;;AAED,AAAA,KAAK,CAAC;EACJ,MAAM,EAAE,KAAK;CACd",
+    "sources": [
+        "BookList.scss"
+    ],
+    "names": [],
+    "file": "BookList.css"
+}
